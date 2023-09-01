@@ -1,0 +1,62 @@
+/* css pertama */
+p{
+    color: rgb(50, 42, 31);
+    text-align: justify;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+body{
+    background-image: url('beach.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0 cm 3 cm;
+}
+
+/* Grouping */
+fieldset, legend{
+    border: red groove 5px;
+    border-radius: 10px;
+}
+legend{
+    padding: 20px;
+    background-color: bisque;
+    color: rosybrown;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 5px;   
+}
+/* contoh 1 selector id */
+div#menu{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+}
+/* contoh 2 dapa masuk ke semua tag asal dipanggil di dalam tag */
+/* #menu{
+    div#menu{
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        padding: 10px;
+    }
+} */
+/* class */
+a.item:link, a.item:visited, a.item:active{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    border: 2px solid red;
+    padding:5px;
+    background-color: aliceblue;
+}
+a.item:hover{
+    color: rgb(63, 43, 16);
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    padding-right: 10px;
+    background-color: aqua;
+}

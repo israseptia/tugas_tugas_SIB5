@@ -1,0 +1,59 @@
+/* css universal */
+*{
+    box-sizing: border-box;
+}
+
+.header{
+    /* background-color: aquamarine; */
+    background-image: url('beach.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: rgb(148, 214, 81);
+}
+
+.navbar a{
+    float: left;
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+.navbar a:hover{
+    background-color: navy;
+    color: yellow;
+}
+
+.column{
+    float: left;
+    padding: 10px;
+    /* background-color: antiquewhite; */
+}
+
+.column.side{
+    width: 25%;
+}
+
+.column.middle{
+    width: 50%;
+}
+
+/* clean float dan memisahkan dari column sebelumnya */
+.row::after{
+    content: "";
+    display: table;
+    clear: both; /*membersihkan floet sebelumnya*/
+}
+.footer{
+    background-color: black;
+    padding: 5px;
+    text-align: center;
+    color: yellow;
+}

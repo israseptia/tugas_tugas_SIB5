@@ -1,0 +1,81 @@
+body{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+div#free, #premium, #profesional{
+    border: 1px;
+    width: 30%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #000;
+    padding: 8px;
+}
+
+/* free */
+#free table tr:last-child td{
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+}
+
+#free table tr:last-child { /*baris terakhir*/
+    background-color: #0056b3;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#free table tr:first-child { /*baris pertama*/
+    background-color: #dd7b7b;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+/* premium */
+#premium table tr:last-child td {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+}
+
+#premium table tr:last-child { /*baris terakhir*/
+    background-color: #0056b3;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#premium table tr:first-child { /*baris pertama*/
+    background-color: rgb(125, 179, 18); 
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+/* proffesional */
+#profesional table tr:last-child td {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    
+}
+
+#profesional table tr:last-child { /*baris terakhir*/
+    background-color: #0056b3;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#profesional table tr:first-child { /*baris pertama*/
+    background-color:rgb(205, 56, 205); 
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
