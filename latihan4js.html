@@ -1,0 +1,19 @@
+<script> //if 1 kondisi
+    let pelanggan = "Israsc";
+    let TotalBelanja = 150000;
+    let keterangan = '';
+
+    if (TotalBelanja > 100000){
+        keterangan = "Selamat" + pelanggan + "Anda mendapat Hadiah";
+     } else{
+        keterangan = "Terimakasih" + pelanggan + "Sudah Berbelanja";
+     }
+     document.write("Atas nama pelaggan " + pelanggan + "Dengan Total Belanja" 
+     + TotalBelanja + " keterangan " + keterangan);
+</script>
+<script> //if 2 kondisi dalam satu waktu & utk menentukan kondisinya tergantung variable kunci
+    let siswa = "Israsc";
+    let nilai = 75;
+    let ket = (nilai >= 60) ? "Lulus" : "Gagal";
+    document.write (" <br> Siswa Bernama " + siswa + "Dengan nilai " + nilai + "dinyatakan" + ket);
+</script> 
